@@ -1,0 +1,321 @@
+/* Reset de styles pour enlever les marges et les listes */
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.body{
+background-color: #000000;
+}
+.header {
+    color: #000000;
+    box-sizing: border-box;
+    /* Couleur de texte noire */
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 120px;
+    margin: -4px;
+    gap: 0px;
+    z-index: 1;
+    position:fixed;
+    place-items: center;
+    background: white;
+    border: 2px solid black;
+}
+
+.headera {
+    font-size: 20px;
+    font-weight:500;
+    text-transform:lowercase;
+    text-decoration: none;
+    font-family:'Gruppo', sans-serif;
+    color: #070707;
+}
+
+.headera :hover {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:'Gruppo', sans-serif;
+    color: red;
+}
+
+.headertitre {
+    color: black;
+    text-decoration: none;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+    font-weight:600;
+    text-transform: uppercase;
+    color: #070707;
+}
+
+.headertitre :hover {
+    color: red;
+}
+
+
+/* Styles pour la grille d'images */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 colonnes égales */
+    grid-gap: 60px;
+    /* Espacement entre les éléments */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.xl{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.grid-item {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:'Gruppo', sans-serif;
+    
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item p {
+    margin-top: 15px;
+}
+
+.image-grid img {
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out;
+    /* Transition de l'ombre */
+}
+
+.image-grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 colonnes égales */
+    grid-gap: 60px;
+    /* Espacement entre les éléments */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    grid-auto-flow: row dense;
+
+}
+
+.image-grid3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 colonnes égales */
+    grid-gap: 60px;
+    /* Espacement entre les éléments */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.grid-item a:hover {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: rgb(4, 4, 4);
+    background-color: rgb(255, 255, 255);
+    width: 20px;
+    /* Largeur de l'image (ajustez selon vos besoins) */
+    height: auto;
+    /* Pour conserver les proportions de l'image */
+    transition: transform 2s ease-in-out;
+    /* Transition pour la transformation d'échelle */
+}
+.img3{
+margin-left: 370%;
+margin-top: -64%
+}
+
+.img4{
+    margin-top: 56%;
+}
+.img5{
+    margin-left: 370%;
+    margin-top: -104%
+}
+
+.img6{
+    margin-top: 70%
+}
+
+.img7{
+    margin-left: 370%;
+    margin-top: -50%
+}
+
+.xl2{
+    margin-top: -200%;
+}
+.img8{
+    margin-left: -124%;
+    margin-top: -80%;
+}
+.img9{margin-left: -124%;
+    margin-top: -124%;
+}
+
+.img10{
+    margin-left: -123%;
+    margin-top: -124%;
+}
+
+.img11{
+    margin-left: 370%;
+    margin-top: -90%;
+}
+
+.img12{
+    margin-top: 35%;
+}
+
+.img13{
+    margin-left: 247%;
+    margin-top: -125%;
+}
+
+.img14{
+    margin-top: -95%;
+}
+
+.img15{
+    margin-left: 370%;
+    margin-top: -90%
+}
+.img16{
+    margin-top: -78%
+}
+.img17{
+    margin-left: 370%;
+    margin-top: -38%;
+}
+
+.img18{
+    margin-left: 370%;
+    margin-top: -75%;
+}
+
+.img20{
+    margin-left: 247%;
+margin-bottom: -10%;
+margin-top: 28%;
+}
+.img21{
+    margin-left: 370%;
+    margin-top: 45%;
+}
+
+.img22{
+    margin-left: 370%;
+    margin-top: -113%;
+}
+
+/* Styles pour l'effet de survol avec le halo */
+.editionaddiction img:hover {
+    box-shadow: 0 0 40px rgb(15, 161, 223);
+    /* Ombre de 10px de rayon avec une couleur semi-transparente au survol */
+    transform: scale(1.03);
+    /* Augmente la taille de l'image de 10% au survol */
+}
+.tim img:hover {
+    box-shadow: 0 0 40px rgb(172, 70, 255);
+    /* Ombre de 10px de rayon avec une couleur semi-transparente au survol */
+    transform: scale(1.03);
+    /* Augmente la taille de l'image de 10% au survol */
+}
+
+/* Styles pour l'effet de survol avec le halo */
+.solitudeimaginée img:hover {
+    box-shadow: 0 0 40px rgb(228, 17, 211);
+    transform: scale(1.03);
+}
+/* Styles pour l'effet de survol avec le halo */
+.huitminisconcepts img:hover {
+    box-shadow: 0 0 40px rgb(83, 219, 24);
+    transform: scale(1.03);
+}
+/* Styles pour l'effet de survol avec le halo */
+.editiontypo img:hover {
+    box-shadow: 0 0 40px rgb(45, 78, 124);
+    transform: scale(1.03);
+}
+/* Styles pour l'effet de survol avec le halo */
+.affichetypo img:hover {
+    box-shadow: 0 0 40px rgb(12, 230, 226);
+    transform: scale(1.03);
+}
+/* Styles pour l'effet de survol avec le halo */
+.editioncicatrice img:hover {
+    box-shadow: 0 0 40px rgb(255, 167, 2);
+    transform: scale(1.03);
+}
+/* Styles pour l'effet de survol avec le halo */
+.postertimburton img:hover {
+    box-shadow: 0 0 40px rgb(12, 90, 23);
+    transform: scale(1.03);
+}
+/* Styles pour l'effet de survol avec le halo */
+.cassette img:hover {
+    box-shadow: 0 0 40px rgb(228, 25, 3);
+    transform: scale(1.03);
+}
+/* Styles pour l'effet de survol avec le halo */
+.couvertures img:hover {
+    box-shadow: 0 0 40px rgb(234, 208, 11);
+    transform: scale(1.03);
+}
+/* Styles pour l'effet de survol avec le halo */
+.riso img:hover {
+    box-shadow: 0 0 40px rgb(11, 89, 234);
+    transform: scale(1.03);
+}
+/* Styles pour l'effet de survol avec le halo */
+.obscur img:hover {
+    box-shadow: 0 0 40px rgb(45, 78, 124);
+    transform: scale(1.03);
+}
+.main-content {
+    float: left;
+    width: 70%;
+}
+
+.image-columns {
+    float: right;
+    width: 30%;
+}
+/* Styles pour les images et les colonnes: */
+.image-column img {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.image-column2 img {
+    max-width: 180%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+section h1{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+section p{
+    font-family: 'Gruppo', sans-serif;
+}

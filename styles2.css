@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 25px;
+}
+
+.headertitre{
+    background-color: black;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.headertitre:hover{
+    color: rgb(0, 183, 255); /* Changement de couleur du texte au survol */
+}
+
+div{
+    font-family: 'Gruppo', sans-serif;
+    font-size: 20px;
+}
+
+section a {
+        display: inline-block;
+        padding: 20px;
+        background-color: white; /* Couleur de fond en blanc */
+        color: black; /* Couleur du texte en noir */
+        text-decoration: none;
+        transition: background-color 0.3s;
+        margin-bottom: 40px;
+        border-radius: 15px; 
+    }
+
+    section a:hover {
+        background-color: rgb(0, 183, 255); /* Couleur différente au survol */
+        color: white; /* Changement de couleur du texte au survol */
+    }
+section {
+    margin-top: 70px;
+}
+section a {
+    margin-top: 90px; /* Ajustez la valeur selon vos préférences */
+}
